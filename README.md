@@ -128,35 +128,6 @@ Next Stop: Shirdi
 
 These are example outputs; verify the exact messages against the program's actual output.
 
-## 9. Time Complexity
-
-Let `n` be the number of stops in the route.
-
-| Operation | Time Complexity | Explanation |
-|---|---|---|
-| Add a stop at the end | O(1) | The `tail` pointer provides direct access to the last node. |
-| Remove a stop by name | O(n) | The program may need to search the list. |
-| Display forward route | O(n) | Each node is visited once. |
-| Display backward route | O(n) | Each node is visited once. |
-| Find previous and next stops | O(n) | The program searches for the requested stop. |
-
-The linked list requires **O(n) space** to store `n` stops.
-
-## 10. Repository Structure
-
-```text
-DSA-Unit3-LinkedList-109-BarateAditya/
-├── README.md
-├── Source_Code/
-│   └── linkedlist.cpp
-├── Output/
-│   ├── output.pdf
-│   └── screenshots/
-└── Documentation/
-    └── Report.pdf
-```
-
-The problem statement and project overview are combined in this README, so a separate `Problem_Statement.pdf` is optional unless your instructor specifically requires it.
 
 ## 11. Conclusion
 
